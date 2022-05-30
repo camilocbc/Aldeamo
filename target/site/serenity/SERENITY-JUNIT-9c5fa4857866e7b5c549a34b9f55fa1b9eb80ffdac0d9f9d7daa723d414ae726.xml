@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="proyecto de automatizacion web de saurcelabs" skipped="0" tests="2" time="22.99" timestamp="2022-05-29T23:26:53.022-05:00[America/Bogota]"><testcase name="Realizar login correcto"><error message="The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='header_container']/div[2]/span to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='header_container']/div[2]/span to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="1" name="proyecto de automatizacion web de saurcelabs" skipped="0" tests="8" time="86.05" timestamp="2022-05-29T23:26:53.022-05:00[America/Bogota]"><testcase name="Realizar login correcto"><error message="The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='header_container']/div[2]/span to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='header_container']/div[2]/span to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
 Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
 System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
 Driver info: driver.version: unknown
@@ -16,5 +16,54 @@ Driver info: driver.version: unknown&#13;
 pageObjects.loginPageObject.Lbl_vcorrecta(loginPageObject.java:64)&#13;
 steps.loginStep.ValidarInicioSesion(loginStep.java:24)&#13;
 definitions.loginDefinition.validar_login_correcto(loginDefinition.java:24)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Realizar login Fallido"><error message="The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='login_button_container']/div/form/div[3]/h3 to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='login_button_container']/div/form/div[3]/h3 to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='login_button_container']/div/form/div[3]/h3 to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown&#13;
+pageObjects.loginPageObject.Lbl_mensajeError(loginPageObject.java:70)&#13;
+steps.loginStep.ValidarMensajeError(loginStep.java:31)&#13;
+definitions.loginDefinition.validarLoginFallido(loginDefinition.java:28)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Realizar login usuario bloqueado"><error message="The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='login_button_container']/div/form/div[3]/h3 to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='login_button_container']/div/form/div[3]/h3 to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for By.xpath: //*[@id='login_button_container']/div/form/div[3]/h3 to be displayed (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown&#13;
+pageObjects.loginPageObject.Lbl_mensajeError(loginPageObject.java:70)&#13;
+steps.loginStep.ValidarMensajeError(loginStep.java:31)&#13;
+definitions.loginDefinition.validarLoginBloqueado(loginDefinition.java:33)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Cerrar Sesion exitosamente"><failure message="The following error occurred: Expected enabled element was not enabled&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown</failure><system-err>The following error occurred: Expected enabled element was not enabled
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'DESKTOP-GHJHIG0', ip: '26.106.78.95', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: unknown&#13;
+pageObjects.loginPageObject.Btn_menuHamburguesa(loginPageObject.java:45)&#13;
+steps.loginStep.cerrarSesion(loginStep.java:44)&#13;
+definitions.loginDefinition.cierroSesion(loginDefinition.java:38)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>

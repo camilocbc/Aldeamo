@@ -29,7 +29,9 @@ Instalar Herramientas de Desarrollo y ejecucion:
 
 ![img_7.png](img_7.png)
 
-2. Ingresar el comando "" y dar Enter.
+2. Ingresar el comando "git clone https://github.com/camilocbc/Aldeamo.git" y dar Enter.
+
+![img_8.png](img_8.png)
 ## Ejecutando las pruebas ⚙️
 
 _Como Ejecutar la prueba Automatizada._

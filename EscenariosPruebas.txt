@@ -1,0 +1,6 @@
+1. Realizar login correcto
+2. Realizar login Fallido
+3. Realizar login usuario bloqueado
+4. Cerrar Sesion exitosamente
+5. Cerrar Sesion exitosamente y volver atras
+6. Realizar Compra Exitosa
